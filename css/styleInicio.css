@@ -23,7 +23,7 @@
     align-items: center;
     list-style: none;
     background-color: rgb(40, 38, 38);
-    padding: 20px;
+    padding: 10px;
 
 }
 
@@ -45,6 +45,7 @@ footer {
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
 
 }
 
