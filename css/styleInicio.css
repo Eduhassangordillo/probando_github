@@ -5,6 +5,11 @@
     color: white;
 }
 
+/* body {
+    display: flex;
+    flex-direction: column;
+} */
+
 .wideScreen {
     width: 100%;
     position: fixed;
@@ -14,6 +19,10 @@
 }
 
 .smallScreen {
+    display: none;
+}
+
+.carousel-smallScreen {
     display: none;
 }
 
@@ -36,7 +45,7 @@
 }
 
 main {
-    padding-top: 60px;
+    padding-top: 56px;
 }
 
 footer {
@@ -86,7 +95,14 @@ footer {
     .smallScreen {
         display: flex;
         background-color: rgb(40, 38, 38);
+    }
 
+    .carousel-wideScreen {
+        display: none;
+    }
+
+    .carousel-smallScreen{
+        display: flex;
     }
 
     /* Puedes agregar más estilos específicos para pantallas más pequeñas aquí */
@@ -99,6 +115,10 @@ footer {
         background-color: #d0d0d0;
     }
 
+    main {
+        background: #ff7e7e;
+    }
+
     .wideScreen {
         display: none;
     }
@@ -108,5 +128,12 @@ footer {
         background-color: rgb(40, 38, 38);
     }
 
+    .carousel-wideScreen {
+        display: none;
+    }
+
+    .carousel-smallScreen{
+        display: flex;
+    }
     /* Puedes agregar más estilos específicos para pantallas aún más pequeñas aquí */
 }
