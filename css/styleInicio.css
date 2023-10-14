@@ -2,14 +2,19 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
+    color: white;
 }
 
-nav {
+.wideScreen {
     width: 100%;
     position: fixed;
     top: 0px;
     left: 0px;
     z-index: 10;
+}
+
+.smallScreen {
+    display: none;
 }
 
 .conteiner-navbar {
@@ -63,4 +68,43 @@ footer {
 .lorem {
     padding: 15px;
 
+}
+
+/* Consulta de medios para pantallas de hasta 768px de ancho */
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+        background-color: #e0e0e0;
+    }
+
+    .wideScreen {
+        display: none;
+    }
+
+    .smallScreen {
+        display: flex;
+        background-color: rgb(40, 38, 38);
+
+    }
+
+    /* Puedes agregar más estilos específicos para pantallas más pequeñas aquí */
+}
+
+/* Consulta de medios para pantallas de hasta 480px de ancho */
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 12px;
+        background-color: #d0d0d0;
+    }
+
+    .wideScreen {
+        display: none;
+    }
+
+    .smallScreen {
+        display: flex;
+        background-color: rgb(40, 38, 38);
+    }
+
+    /* Puedes agregar más estilos específicos para pantallas aún más pequeñas aquí */
 }
