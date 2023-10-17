@@ -10,6 +10,9 @@
     flex-direction: column;
 } */
 
+.container-img {}
+
+
 .wideScreen {
     width: 100%;
     position: fixed;
@@ -101,7 +104,7 @@ footer {
         display: none;
     }
 
-    .carousel-smallScreen{
+    .carousel-smallScreen {
         display: flex;
     }
 
@@ -113,10 +116,6 @@ footer {
     body {
         font-size: 12px;
         background-color: #d0d0d0;
-    }
-
-    main {
-        background: #ff7e7e;
     }
 
     .wideScreen {
@@ -132,8 +131,9 @@ footer {
         display: none;
     }
 
-    .carousel-smallScreen{
+    .carousel-smallScreen {
         display: flex;
     }
+
     /* Puedes agregar más estilos específicos para pantallas aún más pequeñas aquí */
 }
